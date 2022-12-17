@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        popins: "'Poppins', sans-serif"
+      }
+    },
   },
   plugins: [require('prettier-plugin-tailwindcss')],
 }
