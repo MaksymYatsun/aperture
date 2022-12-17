@@ -5,94 +5,121 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Aperture</title>
   <link rel="stylesheet" href="../dist/output.css">
 </head>
 
-<body>
+<body class="bg-black text-white px-5">
   <header>
-    <a href=""></a>
-    <nav>
-      <ul>
-        <li><a href="">Business areas</a></li>
-        <li><a href="">Featured images</a></li>
-        <li><a href="">Gear cage</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Get template</a></li>
-      </ul>
-    </nav>
+    <div class="container mx-auto flex flex-row">
+      <a href=""></a>
+      <nav>
+        <ul class="flex flex-row">
+          <li><a href="">Business areas</a></li>
+          <li><a href="">Featured images</a></li>
+          <li><a href="">Gear cage</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Get template</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section>
-      <span>Photographer & Filmmaker</span>
-      <h2>Aperture Studios</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
-        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
-        faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      <div class="container mx-auto flex flex-col justify-center">
+        <span class="text-center">Photographer & Filmmaker</span>
+        <h2 class="text-center">Aperture Studios</h2>
+        <p class="mx-auto text-center w-1/2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+          Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
+          faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        <div class="ml-auto">
+          <span>1/2000s</span>
+          <span>f/11</span>
+          <span>100</span>
+          <span>Iceland</span>
+        </div>
+      </div>
     </section>
     <section>
-      <h2>What we do.</h2>
-      <p>The areas that we're specialized in.</p>
-      <div>
-        <h3>Product Photography</h3>
-        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
-          varius, faucibus libero ac, cursus quam.</p>
-        <a href="">Read more</a>
-      </div>
-      <div>
-        <h3>Architecture Photography</h3>
-        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
-          varius, faucibus libero ac, cursus quam.</p>
-        <a href="">Read more</a>
-      </div>
-      <div>
-        <h3>Drone Photography</h3>
-        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
-          varius, faucibus libero ac, cursus quam.</p>
-        <a href="">Read more</a>
-      </div>
-      <div>
-        <h3>Wildlife Photography</h3>
-        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci
-          varius, faucibus libero ac, cursus quam.</p>
-        <a href="">Read more</a>
+      <div class="container mx-auto">
+        <h2>What we do.</h2>
+        <p>The areas that we're specialized in.</p>
+        <div class="grid grid-cols-2 gap-5">
+          <div>
+            <h3>Product Photography</h3>
+            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
+              orci
+              varius, faucibus libero ac, cursus quam.</p>
+            <a href="">Read more</a>
+          </div>
+          <div>
+            <h3>Architecture Photography</h3>
+            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
+              orci
+              varius, faucibus libero ac, cursus quam.</p>
+            <a href="">Read more</a>
+          </div>
+          <div>
+            <h3>Drone Photography</h3>
+            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
+              orci
+              varius, faucibus libero ac, cursus quam.</p>
+            <a href="">Read more</a>
+          </div>
+          <div>
+            <h3>Wildlife Photography</h3>
+            <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
+              orci
+              varius, faucibus libero ac, cursus quam.</p>
+            <a href="">Read more</a>
+          </div>
+        </div>
       </div>
     </section>
-    <div>
-      <div>
-        <h3>Sunset at Mount Fuji</h3>
-        <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+    <div class="flex flex-col">
+      <div class="container mx-auto flex align-middle justify-end">
+        <div class="w-1/4">
+          <h3>Sunset at Mount Fuji</h3>
+          <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus
+            egestas non.</p>
+        </div>
       </div>
-      <div>
+      <div class="ml-auto">
         <span>1"</span>
         <span>f/16</span>
         <span>400</span>
         <span>Japan</span>
       </div>
     </div>
-    <section>
-      <div>
-        <span>The Gear cage</span>
-        <h2>The tools that we use.</h2>
-        <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed
-          film".
-          While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture
-          the amazing things around us.</p>
-        <a href="">Check it out</a>
-        <div>
-          <span>0,8"</span>
-          <span>f/5,6</span>
-          <span>100</span>
-          <span>Sweden</span>
+    <section class="flex flex-col">
+      <div class="container mx-auto">
+        <div class="w-5/12">
+          <span>The Gear cage</span>
+          <h2>The tools that we use.</h2>
+          <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed
+            film".
+            While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to
+            capture
+            the amazing things around us.</p>
+          <a href="">Check it out</a>
         </div>
       </div>
-    </section>
-    <div>
-      <div>
-        <h3>Monstera Leafs</h3>
-        <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+      <div class="ml-auto">
+        <span>0,8"</span>
+        <span>f/5,6</span>
+        <span>100</span>
+        <span>Sweden</span>
       </div>
-      <div>
+    </section>
+    <div class="flex flex-col">
+      <div class="container mx-auto flex justify-end">
+        <div class="w-1/4">
+          <h3>Monstera Leafs</h3>
+          <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+        </div>
+      </div>
+      <div class="ml-auto">
         <span>1/400s</span>
         <span>f/3.5</span>
         <span>100</span>
@@ -100,25 +127,27 @@
       </div>
     </div>
     <section>
-      <div>
-        <h2>Past clients</h2>
-        <p>Trusted by your favourite companies</p>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+      <div class="container mx-auto">
+        <h2 class="text-center">Past clients</h2>
+        <p class="text-center">Trusted by your favourite companies</p>
+        <ul class="flex w-10/12 justify-between mx-auto">
+          <li><a href="">lorem</a></li>
+          <li><a href="">lorem</a></li>
+          <li><a href="">lorem</a></li>
+          <li><a href="">lorem</a></li>
+          <li><a href="">lorem</a></li>
         </ul>
       </div>
     </section>
-    <div>
-      <div>
-        <h3>Star fall in the Himalayas</h3>
-        <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
-          ligula.</p>
+    <div class="flex flex-col">
+      <div class="container mx-auto flex justify-end">
+        <div class="w-1/4">
+          <h3>Star fall in the Himalayas</h3>
+          <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
+            ligula.</p>
+        </div>
       </div>
-      <div>
+      <div class="ml-auto">
         <span>6"</span>
         <span>f/11</span>
         <span>800</span>
@@ -126,50 +155,65 @@
       </div>
     </div>
     <section>
-      <div>
-        <h2>Need help with photography or videography?</h2>
-        <p>We're here for you!</p>
-        <a href="">Get in touch</a>
+      <div class="container mx-auto flex flex-col justify-center">
+        <h2 class="text-center">Need help with photography or videography?</h2>
+        <p class="text-center">We're here for you!</p>
+        <button>
+          <a href="">Get in touch</a>
+        </button>
       </div>
     </section>
   </main>
   <footer>
-    <div>
-      <a href=""></a>
-      <p>Photographers & videographers capturing the world around us.</p>
-      <div>
-        <h3>Business areas</h3>
-        <ul>
-          <li>Product Photography</li>
-          <li>Architecture Photography</li>
-          <li>Drone Photography</li>
-          <li>Wildlife Photography</li>
-        </ul>
+    <div class="container mx-auto flex flex-col">
+      <div class="flex">
+        <div>
+          <a href="">lorem</a>
+          <p>Photographers & videographers capturing the world around us.</p>
+        </div>
+        <div>
+          <h3>Business areas</h3>
+          <ul>
+            <li>Product Photography</li>
+            <li>Architecture Photography</li>
+            <li>Drone Photography</li>
+            <li>Wildlife Photography</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <ul>
+            <li>Gear cage</li>
+            <li>Featured images</li>
+            <li>Contact</li>
+            <li>Style guide</li>
+            <li>Instructions</li>
+            <li>Changelog</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h3>Pages</h3>
-        <ul>
-          <li>Gear cage</li>
-          <li>Featured images</li>
-          <li>Contact</li>
-          <li>Style guide</li>
-          <li>Instructions</li>
-          <li>Changelog</li>
-        </ul>
+      <div class="flex">
+        <div class="flex">
+          <h3>Subscribe to our newsletter</h3>
+          <p>Read about all the things we do.</p>
+        </div>
+        <form action="">
+          <input type="text">
+          <button>lorem</button>
+        </form>
       </div>
-    </div>
-    <div>
-      <h3>Subscribe to our newsletter</h3>
-      <p>Read about all the things we do.</p>
-      <form action="">
-        <input type="text">
-        <button></button>
-      </form>
-    </div>
-    <div>
-      <span>
-        © Aperture Photography, Inc. All rights reserved. Licensing.
-      </span>
+      <div class="flex justify-between">
+        <span>
+          © Aperture Photography, Inc. All rights reserved. Licensing.
+        </span>
+        <div>
+          <ul class="flex">
+            <li><a href="">lorem</a></li>
+            <li><a href="">lorem</a></li>
+            <li><a href="">lorem</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
