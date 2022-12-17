@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="../dist/output.css">
 </head>
 
-<body class="bg-black text-white px-5">
+<body class="bg-black text-white">
   <header>
-    <div class="container mx-auto flex flex-row">
-      <a href=""></a>
+    <div class="container mx-auto flex flex-row justify-between p-6">
+      <a href="">
+        <img src="img/aperture.svg" alt="">
+      </a>
       <nav>
         <ul class="flex flex-row">
           <li><a href="">Business areas</a></li>
@@ -25,8 +27,8 @@
     </div>
   </header>
   <main>
-    <section>
-      <div class="container mx-auto flex flex-col justify-center">
+    <section class="bg-[url('../src/img/hero-bg.jpg')] bg-cover bg-no-repeat h-[716px]">
+      <div class="container mx-auto flex flex-col justify-end h-full">
         <span class="text-center">Photographer & Filmmaker</span>
         <h2 class="text-center">Aperture Studios</h2>
         <p class="mx-auto text-center w-1/2">
@@ -43,42 +45,46 @@
     </section>
     <section>
       <div class="container mx-auto">
-        <h2>What we do.</h2>
-        <p>The areas that we're specialized in.</p>
+        <h2 class="text-center">What we do.</h2>
+        <p class="text-center">The areas that we're specialized in.</p>
         <div class="grid grid-cols-2 gap-5">
-          <div>
+          <article>
+            <img src="img/card-1.png" alt="">
             <h3>Product Photography</h3>
             <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
               orci
               varius, faucibus libero ac, cursus quam.</p>
             <a href="">Read more</a>
-          </div>
-          <div>
+          </article>
+          <article>
+            <img src="img/card-2.png" alt="">
             <h3>Architecture Photography</h3>
             <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
               orci
               varius, faucibus libero ac, cursus quam.</p>
             <a href="">Read more</a>
-          </div>
-          <div>
+          </article>
+          <article>
+            <img src="img/card-3.png" alt="">
             <h3>Drone Photography</h3>
             <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
               orci
               varius, faucibus libero ac, cursus quam.</p>
             <a href="">Read more</a>
-          </div>
-          <div>
+          </article>
+          <article>
+            <img src="img/card-4.png" alt="">
             <h3>Wildlife Photography</h3>
             <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut
               orci
               varius, faucibus libero ac, cursus quam.</p>
             <a href="">Read more</a>
-          </div>
+          </article>
         </div>
       </div>
     </section>
-    <div class="flex flex-col">
-      <div class="container mx-auto flex align-middle justify-end">
+    <div class="flex flex-col bg-[url('../src/img/fuji-bg.jpg')] h-[600px]">
+      <div class="container mx-auto flex justify-end items-center h-full">
         <div class="w-1/4">
           <h3>Sunset at Mount Fuji</h3>
           <p>Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus
@@ -92,8 +98,8 @@
         <span>Japan</span>
       </div>
     </div>
-    <section class="flex flex-col">
-      <div class="container mx-auto">
+    <section class="bg-[url('../src/img/gear.jpg')] bg-no-repeat bg-right">
+      <div class="container mx-auto flex flex-col">
         <div class="w-5/12">
           <span>The Gear cage</span>
           <h2>The tools that we use.</h2>
@@ -112,8 +118,8 @@
         <span>Sweden</span>
       </div>
     </section>
-    <div class="flex flex-col">
-      <div class="container mx-auto flex justify-end">
+    <div class="flex flex-col bg-[url('../src/img/monstera-bg.jpg')] h-[600px]">
+      <div class="container mx-auto flex justify-end items-center h-full">
         <div class="w-1/4">
           <h3>Monstera Leafs</h3>
           <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
@@ -131,16 +137,26 @@
         <h2 class="text-center">Past clients</h2>
         <p class="text-center">Trusted by your favourite companies</p>
         <ul class="flex w-10/12 justify-between mx-auto">
-          <li><a href="">lorem</a></li>
-          <li><a href="">lorem</a></li>
-          <li><a href="">lorem</a></li>
-          <li><a href="">lorem</a></li>
-          <li><a href="">lorem</a></li>
+          <li><a href="">
+              <img src="img/hill-hayes.svg" alt="">
+            </a></li>
+          <li><a href="">
+              <img src="img/riksgransen.svg" alt="">
+            </a></li>
+          <li><a href="">
+              <img src="img/studio-cai.svg" alt="">
+            </a></li>
+          <li><a href="">
+              <img src="img/chill-industries.svg" alt="">
+            </a></li>
+          <li><a href="">
+              <img src="img/stockholm.svg" alt="">
+            </a></li>
         </ul>
       </div>
     </section>
-    <div class="flex flex-col">
-      <div class="container mx-auto flex justify-end">
+    <div class="flex flex-col h-[600px] bg-[url('../src/img/himalayas-bg.jpg')]">
+      <div class="container mx-auto flex items-center justify-end h-full">
         <div class="w-1/4">
           <h3>Star fall in the Himalayas</h3>
           <p>Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
@@ -166,33 +182,35 @@
   </main>
   <footer>
     <div class="container mx-auto flex flex-col">
-      <div class="flex">
+      <div class="flex justify-between">
         <div>
           <a href="">lorem</a>
           <p>Photographers & videographers capturing the world around us.</p>
         </div>
-        <div>
-          <h3>Business areas</h3>
-          <ul>
-            <li>Product Photography</li>
-            <li>Architecture Photography</li>
-            <li>Drone Photography</li>
-            <li>Wildlife Photography</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Pages</h3>
-          <ul>
-            <li>Gear cage</li>
-            <li>Featured images</li>
-            <li>Contact</li>
-            <li>Style guide</li>
-            <li>Instructions</li>
-            <li>Changelog</li>
-          </ul>
+        <div class="flex">
+          <div>
+            <h3>Business areas</h3>
+            <ul>
+              <li>Product Photography</li>
+              <li>Architecture Photography</li>
+              <li>Drone Photography</li>
+              <li>Wildlife Photography</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Pages</h3>
+            <ul>
+              <li>Gear cage</li>
+              <li>Featured images</li>
+              <li>Contact</li>
+              <li>Style guide</li>
+              <li>Instructions</li>
+              <li>Changelog</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="flex">
+      <div class="flex justify-between">
         <div class="flex">
           <h3>Subscribe to our newsletter</h3>
           <p>Read about all the things we do.</p>
@@ -208,9 +226,15 @@
         </span>
         <div>
           <ul class="flex">
-            <li><a href="">lorem</a></li>
-            <li><a href="">lorem</a></li>
-            <li><a href="">lorem</a></li>
+            <li><a href="">
+                <img src="img/twitter.svg" alt="">
+              </a></li>
+            <li><a href="">
+                <img src="img/insta.svg" alt="">
+              </a></li>
+            <li><a href="">
+                <img src="img/fb.svg" alt="">
+              </a></li>
           </ul>
         </div>
       </div>
